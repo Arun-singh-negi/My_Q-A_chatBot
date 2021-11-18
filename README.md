@@ -3,7 +3,7 @@ It is a project to make a Q&A chat bot which will give ans to a questions base o
 ## Data Set:
 I used kaggle data set orignaly from facebook BABI data set "https://research.fb.com/downloads/babi/".
 in this data set the story,question,answer are given in a list format which is inside a Tuple. so data is a Tuple of a list
-first we have given a story ,then a question an answer to the question ere are 1000 questions for training, and 1000 for testing. 
+first we have given a story ,then a question an answer to the question ere are 10000 questions for training, and 1000 for testing. 
 However, we emphasize that the goal is to use as little data as possible to do well on the tasks (i.e. if you can use less than 1000 that’s even better) — and without resorting to engineering task-specific tricks that will not generalize to other tasks, as they may not be of much use subsequently. 
 Note that the aim during evaluation is to use the same learner across all tasks to evaluate its skills and capabilities.
 
