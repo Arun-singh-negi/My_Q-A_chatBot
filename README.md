@@ -10,22 +10,24 @@ Note that the aim during evaluation is to use the same learner across all tasks 
 
 I have used a English dataset (working on the Hinglish dataset project) while the orignal dataset is given in two languages hindi(hinglish) and english.
 eg.  
-1 Mary is in the school.
-2 Bill is in the kitchen.
-3 Is Bill in the bedroom? 	no	
-2
-4 Bill journeyed to the bedroom.
-5 Fred travelled to the cinema.
-6 Is Bill in the bedroom? 	yes	4
-7 Fred went back to the park.
-8 Bill is either in the school or the office.
-9 Is Bill in the park? 	no	8
-10 Mary went to the cinema.
-11 Julie is either in the school or the office.
-12 Is Fred in the park? 	yes	7
-13 Julie is either in the park or the school.
-14 Bill went back to the office.
-15 Is Bill in the office? 	yes
+1 Mary is in the school., Bill is in the kitchen.
+Q 'Is Bill in the bedroom'? 	A 'no'	
+
+
+2 Bill journeyed to the bedroom. Fred travelled to the cinema.
+Q 'Is Bill in the bedroom?' A	'yes'	
+
+
+3 Fred went back to the park. Bill is either in the school or the office.
+Q 'Is Bill in the park?' A	'no'	
+
+
+4 Mary went to the cinema. Julie is either in the school or the office.
+Q 'Is Fred in the park?' 	A 'yes'	
+
+
+5 Julie is either in the park or the school. Bill went back to the office.
+Q 'Is Bill in the office?' A	'yes'
 
 
 ### The architechture 
